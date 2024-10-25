@@ -1,5 +1,46 @@
+
 body{
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 15vh 15vh 80vh 15vh;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+#logge{
+    max-height: 80px;
+    max-width: 160px;
+    justify-self: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.border{
+    border: 5px solid black;
+    border-radius: 10px;
+    
+}
+header{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    h1{
+        color: white;
+    }
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-top: 10px;
+    a{
+        color: white;
+        font-size: large;
+    }
+    
+}
+#drake{
+    max-height: 1150px;
 }
