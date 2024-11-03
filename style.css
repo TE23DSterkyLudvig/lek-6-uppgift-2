@@ -55,6 +55,7 @@ main img{
     width: 30%;
     height: auto;
     min-width: 175px;
+    height: 190px;
 }
 footer{
     display: flex;
